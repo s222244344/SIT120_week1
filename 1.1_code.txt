@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>My website</title>
+  <link rel="stylesheet" type="text/css" href="1.1_style.css">
+
+  <style>
+
+    ul{
+  
+      margin-left: 500px;
+      margin-bottom: auto;
+      
+    } 
+    table {
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+   
+    th {
+      background-color: burlywood;
+      border: 5px solid aqua;
+    }
+
+  
+    td {
+      border: 5px solid aqua;
+    }
+
+    
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+   
+    input[type="submit"] {
+      border: none;
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    p3{
+      text-align: left;
+      margin-top: 50px;
+      margin-left: 500;
+    }
+
+
+    footer{
+      text-align: left;
+      margin-right: 1250px;
+    }
+  </style>
+
+  
+  
+</head>
+<body>
+  <h1>The outback</h1>
+  <h2>The appearance of the outback vastly changes when the sun goes down.</h2>
+  <p>Due to there being a lack of light pollution, the stars shine brighter than ever.</p>
+
+  <ul style="flex-direction: initial; align-items: initial;">
+    <p1>The Star consilations that are more visible during the night time are</p1>
+    <li>Orion the hunter</li>
+    <li>Scorpius</li>
+    <li>Canis Major</li>
+    <li>Pavo</li>
+  </ul>
+
+  <p3><b><a href=https://www.deakin.edu.au/>More information and photos here!</a></b></p3>
+
+  <table border="1">
+    <tr>
+      <th>
+        <h3>The outback during the day</h3>
+      </th>
+      <th>
+        <h3>The outback at night, displaying magnificent star patterns</h3>
+      </th>
+    </tr>
+    <tr>
+      <td><img src="outback_during_day.jpg" style="width: 400px; height: 300px;"></td>
+      <td><img src="outback_during_the_night.jpg" style="width: 500px; height: 300px;"></td>
+    </tr>
+  </table>
+     
+  <table1 border="1">
+    <tr>
+      <td><img="side_image.jpg" style="width: 200px; height: 150px;"><td>
+    </tr>
+  </table1>
+    
+
+  <form action="#" method="post">
+    <input type="text" name="firstname" value="First Name" size="30">
+    <input type="text" name="lastname" value="Last Name" size="30">
+    <input type="text" name="Phonenumber" value="Phone number" size="30">
+    <input type="submit" value="Submit">
+  </form>
+
+  <footer><b>@SIT103_s222244344_Website</b></footer>
+</body>
+</html>
